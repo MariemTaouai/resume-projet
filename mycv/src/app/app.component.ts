@@ -6,6 +6,28 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+
   title = 'mycv';
-  
+  informations={
+  firstname : " ",
+  lastName: " ",
+  email:" ",
+  phone: " ",
+
+};
+education= {
+  degree: " ",
+  school: " ",
+  graduationYear: " ",
 }
+experience= {
+  position: " ",
+  company: " ",
+  startDate: " ",
+  endDate: " ",
+};
+}
+  
+
+  
+  
