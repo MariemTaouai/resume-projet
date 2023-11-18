@@ -1,20 +1,10 @@
 <div>
-    informations <br>
-<input type="text"[(ngModel)]="informations.firstname">firstName<br>
-<input type="text"[(ngModel)]="informations.lastName">lastname<br>
-<input type="text"[(ngModel)]="informations.email" >mail<br>
-<input type="text"[(ngModel)]="informations.phone">phone<br>
+    <app-informations></app-informations>
+</div>
+<div><app-experience>
+</app-experience>
 </div>
 <div>
-    education <br>
-    <input type="text"[(ngModel)]="education.degree">degree<br>
-    <input type="text"[(ngModel)]="education. school">school<br>
-    <input type="text"[(ngModel)]="  education.graduationYear" >graduation year<br>
+    <app-education></app-education>
 </div>
-<div>
-    experience<br>
-<input type="text"[(ngModel)]="experience.position">position <br>
-<input type="text"[(ngModel)]="experience.company">company<br>
-<input type="text"[(ngModel)]="experience.startDate" >StartDate<br>
-<input type="text"[(ngModel)]="experience.endDate">endDate<br>
-</div>
+

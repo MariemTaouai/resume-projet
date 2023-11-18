@@ -7,27 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-  title = 'mycv';
-  informations={
-  firstname : " ",
-  lastName: " ",
-  email:" ",
-  phone: " ",
-
-};
-education= {
-  degree: " ",
-  school: " ",
-  graduationYear: " ",
 }
-experience= {
-  position: " ",
-  company: " ",
-  startDate: " ",
-  endDate: " ",
-};
-}
-  
 
   
   
